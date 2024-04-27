@@ -111,7 +111,7 @@
     canvas.style.top = '0%'
     canvas.style.bottom = '0%'
     canvas.style.right = '0%'
-    canvas.style.marginTop = window.innerHeight * .15 + 'px'
+    canvas.style.marginTop = window.innerHeight * .05 + 'px'
   }
 
   function event () {

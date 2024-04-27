@@ -22,7 +22,7 @@
         .words {
             position: absolute;
             width: 100%;
-            top: 40%;
+            top: 45%;
             transform: translate(0, -50%);
             text-align: center;
             color: rgb(8, 46, 82);
@@ -30,7 +30,7 @@
 
         .timer {
             font-size: 180%;
-            line-height: 1.5;
+            line-height: 0;
             margin: 1em 0;
         }
 
@@ -180,20 +180,18 @@
                 <b id="d"></b> روز <b id="h"></b> ساعت <b id="m"></b> دقیقه <b id="s"></b> ثانیه
             </div>
         </div>
-        <br>
         <h5>
             <h2>
-                تا وصال عشق <b id="bd"></b>
+                تا لحظه ای که چشمان زیبایت را زیباتر از همیشه ببینم <b id="bd"></b>
             </h2>
         </h5>
-        <br>
         <!-- <h4>In case I don't see you，good afternoon，good evening and good night.</h4> -->
     </div>
 
     <script>
         function timer() {
             // Future date to count down to (year, month (0-based), day, hour, minute, second)
-            var futureDate = new Date(2024, 4, 24, 10, 0, 0); // April 30, 2025, 12:00:00
+            var futureDate = new Date(2024, 4, 24, 17, 0, 0); // April 30, 2025, 12:00:00
 
             var now = new Date(); // Current date and time
             var timeDifference = futureDate - now; // Difference in milliseconds
