@@ -72,6 +72,7 @@ body {
 }
 
 #scene {
+    visibility: hidden;
     height: 100%;
     position: absolute;
     left: 50%;
